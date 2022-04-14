@@ -21,7 +21,7 @@ jobs:
       
       # Runs the deployment
       - name: Run deployment
-        run: .github/deploy.sh
+        run: sh .github/deploy.sh
         
       # Runs the test on new website
       - name: Run test
