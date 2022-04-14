@@ -21,4 +21,4 @@ jobs:
       
       # Runs the backup script in the repository
       - name: Run the backup
-        run: .github/backup.sh
+        run: sh .github/backup.sh

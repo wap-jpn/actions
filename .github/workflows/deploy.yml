@@ -25,4 +25,4 @@ jobs:
         
       # Runs the test on new website
       - name: Run test
-        run: .github/test.sh
+        run: sh .github/test.sh
