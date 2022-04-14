@@ -1,0 +1,8 @@
+name: deploy-action
+jobs:
+        deploy-nginx:
+                runs-on: ubuntu-latest
+                steps:
+                        - uses: actions/checkout@v3
+                        - run: sh .github/deploy.sh
+                          
