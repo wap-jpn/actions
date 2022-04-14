@@ -1,7 +1,7 @@
 #!/bin/bash
 # Script to test new site, and optionally roll back
 
-test=$(curl --write-out "%{http_code}\n" "https://new-site.com" --output /tmp/output.txt)
+test=$(curl --write-out "%{http_code}\n" "https://new-site.com/new-site.html" --output /tmp/output.txt)
 echo $test
 if [ $test = "200" ];
 then
